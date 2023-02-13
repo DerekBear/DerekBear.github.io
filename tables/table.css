@@ -1,0 +1,46 @@
+table{
+    border: 2px solid black;
+    font-family: Calibri;
+    font-size: 20px;
+    border-spacing: 0;
+}
+
+
+#t1 tr:nth-child(even){
+    
+    background-color: darkgray;
+}
+
+#t1 td{
+    text-align: center;
+    width: 100px;
+    border-bottom: 1px solid black;
+}
+
+#t1 tr:first-child{
+    background-color: black;
+    color: white;
+}
+
+#t2, #t2 td{
+    border: 1px solid black;
+}
+
+#t2 td{
+    width: 100px;
+    text-align: left;
+}
+
+#t2 col:nth-child(odd){
+    background-color: lightgreen;
+}
+
+#t2 col:nth-child(even){
+    background-color: beige;
+}
+
+#t2 tr:first-child{
+    background-color: blue;
+    color: white;
+
+}
